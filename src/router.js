@@ -21,13 +21,13 @@ export default new Router({
         {
           name: 'User Profile',
           path: 'pages/user',
-          component: () => import('@/views/dashboard/pages/UserProfile'),
+          component: () => import('@/views/dashboard/UserProfile'),
         },
         // Tables
         {
           name: 'Regular Tables',
           path: 'tables/regular-tables',
-          component: () => import('@/views/dashboard/tables/RegularTables'),
+          component: () => import('@/views/dashboard/RegularTables'),
         },
         // Upgrade
         {

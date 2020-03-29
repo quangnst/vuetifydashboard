@@ -114,12 +114,12 @@
         {
           icon: 'mdi-account',
           title: 'user',
-          to: '/pages/user',
+          to: '/user',
         },
         {
           title: 'rtables',
           icon: 'mdi-clipboard-outline',
-          to: '/tables/regular-tables',
+          to: '/regular-tables',
         },
       ],
     }),
